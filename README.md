@@ -4,6 +4,7 @@ An AWS Lambda that checks New Relic every 5 minutes and posts a Slack card when 
 API's error rate is at least 2x the same window **yesterday and last week**. It posts a
 RESOLVED card when the spike ends. The Lambda keeps no state and needs no database.
 
+![Architecture](docs/architecture.svg)
 ![Critical alert](docs/sample-critical.png)
 ![Resolved alert](docs/sample-resolved.png)
 
